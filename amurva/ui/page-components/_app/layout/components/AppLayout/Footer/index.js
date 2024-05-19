@@ -8,9 +8,9 @@ const Footer = () => {
       <div className={styles.container}>
         <p>&copy; {new Date().getFullYear()} Amurva Agro Pvt Ltd. All rights reserved.</p>
         <div className={styles.socialLinks}>
-          <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
-          <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a>
-          <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
+          <a href="https://wa.me/9926161716" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+          <a href="https://www.instagram.com/amurv_a?igsh=Y3B6Mm8wejJvcGVp" target="_blank" rel="noopener noreferrer">Instagram</a>
+          <a href="mailto:amurvaagropvtltd@gmail.com" rel="noopener noreferrer">Email</a>
         </div>
       </div>
     </footer>

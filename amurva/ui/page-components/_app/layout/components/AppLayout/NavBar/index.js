@@ -5,10 +5,10 @@ const navOption=[{
 	title:'Home',
 	url:'/'
 },{
-	title:'About Us',
+	title:'About',
 	url:'/about'
 },{
-	title:'Contact Us',
+	title:'Contact',
 	url:'/contact'
 }]
 import { useRouter } from 'next/router';

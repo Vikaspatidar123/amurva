@@ -2,9 +2,15 @@
 	display: flex;
 	align-items: center;
 	width: 100%;
-    justify-content: center;
+	justify-content: center;
 	margin-right: 12%;
-}
+  }
+  
+  @media (max-width: 768px) {
+	.menu {
+	  margin-right: 0; 
+	}
+  }
 
 .head{
 	display: flex;
