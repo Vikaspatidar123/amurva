@@ -1,0 +1,46 @@
+.container{
+    margin: 0 auto;
+    max-width: 85.375rem;
+    padding: 4rem 7.0625rem;
+}
+
+.heading{
+    color: #343434;
+    text-align: center;
+}
+
+.box{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5rem 2rem;
+    margin-top: 3rem;
+}
+
+.item{
+    box-sizing: border-box;
+    display: flex;
+    font-family: Libre Baskerville, sans-serif;
+    font-size: 1.125rem;
+    font-weight: 700;
+    justify-content: center;
+}
+
+.itemBox{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.itemImage{
+    /* bottom: 0;
+    left: 0; */
+    margin: auto;
+    max-height: 11.625rem;
+    max-width: 13.5rem;
+    /* position: absolute;
+    right: 0;
+    top: 0; */
+    transition: transform .3s ease-in-out;
+}

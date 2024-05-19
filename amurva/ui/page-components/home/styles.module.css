@@ -1,0 +1,131 @@
+/* pages/Home.module.css */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+  /* background: linear-gradient(to right, #ff7e5f, #feb47b); */
+  padding: 20px;
+  border-radius: 10px;
+  color: #000;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-size: 1.2rem;
+}
+
+.products {
+  margin-bottom: 40px;
+}
+
+.products h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.productList {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.product {
+  text-align: center;
+  margin-bottom: 20px;
+  max-width: 300px;
+  transition: transform 0.3s;
+}
+
+.product h3 {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+.product p {
+  font-size: 1rem;
+  margin-top: 5px;
+}
+
+.futurePlans {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.futurePlans h2 {
+  margin-bottom: 20px;
+}
+
+.gallery {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.gallery h2 {
+  margin-bottom: 20px;
+}
+
+.imageGallery {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.contact {
+  text-align: center;
+  margin: 40px 0;
+  background: #f3f4f6;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.contact h2 {
+  margin-bottom: 20px;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contactForm input,
+.contactForm textarea {
+  width: 100%;
+  max-width: 500px;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.contactForm button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background: #feb47b;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.contactForm button:hover {
+  background: #ff7e5f;
+}
+
+
+.imageContainer {
+  width: 300px; /* Set width of container */
+  height: 200px; /* Set height of container */
+  overflow: hidden; /* Hide any overflowing content */
+  border-radius: 8px; /* Add border radius for rounded corners */
+}

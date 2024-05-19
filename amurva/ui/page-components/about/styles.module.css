@@ -1,0 +1,32 @@
+/* src/styles.module.css */
+.aboutContainer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .sectionTitle {
+    margin-top: 20px;
+    color: #2c3e50;
+  }
+  
+  .list {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .paragraph {
+    margin: 10px 0;
+  }
+  
+  .highlight {
+    color: #e74c3c;
+  }
+  
